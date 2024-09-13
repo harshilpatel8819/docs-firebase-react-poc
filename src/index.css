@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ql-container {
+  @apply bg-white !border-lightGray rounded-b-lg rounded-bl-lg;
+}
+
+.ql-toolbar {
+  @apply bg-white !border-lightGray rounded-t-lg rounded-tl-lg;
+}
